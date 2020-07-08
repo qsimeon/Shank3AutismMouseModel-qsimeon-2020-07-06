@@ -1,0 +1,195 @@
+    # Project definitions (do not edit)
+Task: Shank3AutismMouseModel
+scorer: qsimeon
+date: Jul6
+multianimalproject: false
+
+    # Project path (change when moving around)
+project_path: /Users/ehueske/Dropbox (MIT)/DeepLabCut Project (1)/Shank3AutismMouseModel-qsimeon-2020-07-06
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-12 Shank DREADD
+    Truscan Videos/D3_2019-12-11/group2/5181_60minHabD3.00.avi
+  : crop: 0, 800, 0, 600
+  ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-08-19 Shank
+    WT KO pilot/Day 3 (8-21-19)/Ms4791_Day3.00.avi
+  : crop: 0, 800, 0, 600
+  ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-08-19 Shank
+    WT KO pilot/Day 3 (8-21-19)/Ms4800_Day3.00.avi
+  : crop: 0, 800, 0, 600
+  ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-08-19 Shank
+    WT KO pilot/Day 3 (8-21-19)/Ms4804_Day3.00.avi
+  : crop: 30, 798, 82, 561
+  ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-08-19 Shank
+    WT KO pilot/Day 3 (8-21-19)/Ms4805_Day3.00.avi
+  : crop: 19, 795, 69, 571
+  ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-08-19 Shank
+    WT KO pilot/Day 3 (8-21-19)/Ms4806_Day3.00.avi
+  : crop: 16, 774, 52, 578
+  ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-08-19 Shank
+    WT KO pilot/Day 3 (8-21-19)/Ms4807_Day3.00.avi
+  : crop: 65, 753, 63, 506
+  ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-08-19 Shank
+    WT KO pilot/Day 3 (8-21-19)/Ms4819_Day3.00.avi
+  : crop: 32, 798, 86, 578
+  ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-08-19 Shank
+    WT KO pilot/Day 3 (8-21-19)/Ms5111_Day3.00.avi
+  : crop: 9, 774, 27, 545
+  ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-12 Shank DREADD
+    Truscan Videos/D3_2019-12-11/group2/5387_60minHabD3.00.avi
+  : crop: 0, 640, 0, 480
+  ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-12 Shank DREADD
+    Truscan Videos/D3_2019-12-11/group2/5180_60minHabD3.00.avi
+  : crop: 0, 800, 0, 600
+  ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-12 Shank DREADD
+    Truscan Videos/D3_2019-12-11/group2/5102_60minHabD3.00.avi
+  : crop: 0, 640, 0, 480
+  ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-12 Shank DREADD
+    Truscan Videos/D3_2019-12-11/group2/5184_60minHabD3.00.avi
+  : crop: 0, 800, 0, 600
+  ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-12 Shank DREADD
+    Truscan Videos/D3_2019-12-11/group2/5391_60minHabD3.00.avi
+  : crop: 0, 640, 0, 480
+  ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-12 Shank DREADD
+    Truscan Videos/D3_2019-12-11/group2/5389_60minHabD3.00.avi
+  : crop: 0, 800, 0, 600
+  ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-12 Shank DREADD
+    Truscan Videos/D3_2019-12-11/group2/5176_60minHabD3.00.avi
+  : crop: 0, 640, 0, 480
+bodyparts:
+- snout
+- tailbase
+- leftear
+- rightear
+- leftflank
+- rightflank
+- leftfrontpaw
+- rightfrontpaw
+- leftbackpaw
+- rightbackpaw
+start: 0.4
+stop: 0.8
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton:
+- - snout
+  - tailbase
+- - snout
+  - leftear
+- - snout
+  - rightear
+- - snout
+  - leftflank
+- - snout
+  - rightflank
+- - snout
+  - leftfrontpaw
+- - snout
+  - rightfrontpaw
+- - snout
+  - leftbackpaw
+- - snout
+  - rightbackpaw
+- - tailbase
+  - leftear
+- - tailbase
+  - rightear
+- - tailbase
+  - leftflank
+- - tailbase
+  - rightflank
+- - tailbase
+  - leftfrontpaw
+- - tailbase
+  - rightfrontpaw
+- - tailbase
+  - leftbackpaw
+- - tailbase
+  - rightbackpaw
+- - leftear
+  - rightear
+- - leftear
+  - leftflank
+- - leftear
+  - rightflank
+- - leftear
+  - leftfrontpaw
+- - leftear
+  - rightfrontpaw
+- - leftear
+  - leftbackpaw
+- - leftear
+  - rightbackpaw
+- - rightear
+  - leftflank
+- - rightear
+  - rightflank
+- - rightear
+  - leftfrontpaw
+- - rightear
+  - rightfrontpaw
+- - rightear
+  - leftbackpaw
+- - rightear
+  - rightbackpaw
+- - leftflank
+  - rightflank
+- - leftflank
+  - leftfrontpaw
+- - leftflank
+  - rightfrontpaw
+- - leftflank
+  - leftbackpaw
+- - leftflank
+  - rightbackpaw
+- - rightflank
+  - leftfrontpaw
+- - rightflank
+  - rightfrontpaw
+- - rightflank
+  - leftbackpaw
+- - rightflank
+  - rightbackpaw
+- - leftfrontpaw
+  - rightfrontpaw
+- - leftfrontpaw
+  - leftbackpaw
+- - leftfrontpaw
+  - rightbackpaw
+- - rightfrontpaw
+  - leftbackpaw
+- - rightfrontpaw
+  - rightbackpaw
+- - leftbackpaw
+  - rightbackpaw
+skeleton_color: cyan
+pcutoff: 0.8
+dotsize: 8
+alphavalue: 0.7
+colormap: plasma
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.85
+iteration: 0
+default_net_type: mobilenet_v2_1.0
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+croppedtraining: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
