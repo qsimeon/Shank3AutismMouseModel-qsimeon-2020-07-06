@@ -5,8 +5,7 @@ date: Jul6
 multianimalproject: false
 
     # Project path (change when moving around)
-# project_path: /Users/qsimeon/Dropbox (MIT)/Graybiel Lab UROP/DeepLabCut Project/Shank3AutismMouseModel-qsimeon-2020-07-06
-project_path: /Shank3AutismMouseModel-qsimeon-2020-07-06
+project_path: /Users/qsimeon/Dropbox (MIT)/Graybiel Lab UROP/DeepLabCut Project/Shank3AutismMouseModel-qsimeon-2020-07-06
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
