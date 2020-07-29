@@ -166,7 +166,7 @@ skeleton:
   - leftflank
 skeleton_color: white
 pcutoff: 0.8
-dotsize: 5
+dotsize: 30
 alphavalue: 0.7
 colormap: tab10
 
