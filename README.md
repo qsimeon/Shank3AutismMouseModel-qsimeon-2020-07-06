@@ -1,4 +1,4 @@
-# Shank3AutismMouseModel-qsimeon-2020-07-06
+# Shank3AutismMouseModel-qsimeon-2020-07-06 ***
 
 Installation (highlights are what I did)
 Quick Anaconda Install for Windows 10, MacOS, Ubuntu!
