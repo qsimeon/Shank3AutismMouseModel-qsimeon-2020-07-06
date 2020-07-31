@@ -25,7 +25,7 @@ colormap:
 TrainingFraction:
 iteration:
 resnet:
-snapshotindex:
+snapshotindex: 520000
 batch_size: 1
 
 # Cropping Parameters (for analysis and outlier frame detection)
@@ -66,9 +66,9 @@ crop: true
 cropratio: 0.4
 dataset: training-datasets/iteration-0/UnaugmentedDataSet_Shank3AutismMouseModelJul6/Shank3AutismMouseModel_qsimeon85shuffle1.mat
 dataset_type: imgaug
-display_iters: 5000
+display_iters: 2000
 global_scale: 0.8
-init_weights: /usr/local/lib/python3.6/dist-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/mobilenet_v2_1.0_224.ckpt
+init_weights: /content/drive/My Drive/6-9 MEng Research/project-repo/dlc-models/iteration-0/Shank3AutismMouseModelJul6-trainset85shuffle1/train/snapshot-520000
 intermediate_supervision: false
 intermediate_supervision_layer: 12
 leftwidth: 400
@@ -82,7 +82,7 @@ min_input_size: 64
 minsize: 100
 mirror: false
 multi_step:
-- - 0.005
+- - 0.002
   - 430000
 - - 0.003
   - 730000
