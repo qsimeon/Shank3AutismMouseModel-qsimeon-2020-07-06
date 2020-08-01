@@ -1,12 +1,13 @@
-# Project definitions (do not edit)
+    # Project definitions (do not edit)
 Task: Shank3AutismMouseModel
 scorer: qsimeon
 date: Jul6
+multianimalproject: false
 
-# Project path (change when moving around)
-project_path: /content/drive/My Drive/6-9 MEng Research/project-repo
+    # Project path (change when moving around)
+project_path: /Users/qsimeon/Dropbox (MIT)/Graybiel Lab UROP/DeepLabCut Project/Shank3AutismMouseModel-qsimeon-2020-07-06
 
-# Annotation data set configuration (and individual video cropping parameters)
+    # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
   ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-12 Shank DREADD
     Truscan Videos/D3_2019-12-11/group2/5181_60minHabD3.00.avi
@@ -71,7 +72,7 @@ start: 0.4
 stop: 0.8
 numframes2pick: 20
 
-# Plotting configuration
+    # Plotting configuration
 skeleton:
 - - rightflank
   - rightbackpaw
@@ -169,28 +170,27 @@ dotsize: 13
 alphavalue: 0.7
 colormap: tab10
 
-# Training,Evaluation and Analysis configuration
+    # Training,Evaluation and Analysis configuration
 TrainingFraction:
 - 0.85
 iteration: 0
-resnet:
+default_net_type: mobilenet_v2_1.0
+default_augmenter: imgaug
 snapshotindex: -1
 batch_size: 8
 
-# Cropping Parameters (for analysis and outlier frame detection)
+    # Cropping Parameters (for analysis and outlier frame detection)
 cropping: false
-#if cropping is true for analysis, then set the values here:
+croppedtraining: false
+    #if cropping is true for analysis, then set the values here:
 x1: 0
 x2: 640
 y1: 277
 y2: 624
 
-# Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
 corner2move2:
 - 50
 - 50
 move2corner: true
-multianimalproject: false
-default_net_type: mobilenet_v2_1.0
-default_augmenter: imgaug
-croppedtraining: false
+resnet:
