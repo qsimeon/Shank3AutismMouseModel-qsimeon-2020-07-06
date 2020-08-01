@@ -25,7 +25,7 @@ colormap:
 TrainingFraction:
 iteration:
 resnet:
-snapshotindex:
+snapshotindex: -1
 batch_size:
 
 # Cropping Parameters (for analysis and outlier frame detection)
