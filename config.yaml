@@ -56,7 +56,10 @@ video_sets:
   : crop: 1, 776, 1, 597
   ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-12 Shank DREADD
     Truscan Videos/D3_2019-12-11/group2/5176_60minHabD3.00.avi
-  : crop: 1, 625, 1, 479
+  : crop: 7, 620, 2, 479
+  ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-12 Shank DREADD
+    Truscan Videos/D10_2019-12-20/group1/5111_60minOF+Sal.00.avi
+  : crop: 9, 789, 3, 599
 bodyparts:
 - snout
 - tailbase
