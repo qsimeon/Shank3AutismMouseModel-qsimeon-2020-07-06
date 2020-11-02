@@ -68,7 +68,7 @@ dataset: training-datasets/iteration-0/UnaugmentedDataSet_Shank3AutismMouseModel
 dataset_type: imgaug
 display_iters: 5000
 global_scale: 0.8
-init_weights: /content/drive/My Drive/6-9 MEng Research/project-repo/dlc-models/iteration-0/Shank3AutismMouseModelJul6-trainset85shuffle1/train/snapshot-90000
+init_weights: /content/drive/My Drive/6-9 MEng Research/project-repo/dlc-models/iteration-0/Shank3AutismMouseModelJul6-trainset85shuffle1/train/snapshot-590000
 intermediate_supervision: false
 intermediate_supervision_layer: 12
 leftwidth: 400

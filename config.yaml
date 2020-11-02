@@ -5,7 +5,7 @@ date: Jul6
 multianimalproject: false
 
     # Project path (change when moving around)
-project_path: /Users/ehueske/Dropbox (MIT)/DeepLabCut Project/Shank3AutismMouseModel-qsimeon-2020-07-06
+project_path: /Users/qsimeon/Dropbox (MIT)/Graybiel Lab UROP/DeepLabCut Project/Shank3AutismMouseModel-qsimeon-2020-07-06
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
@@ -60,6 +60,15 @@ video_sets:
   ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-12 Shank DREADD
     Truscan Videos/D10_2019-12-20/group1/5111_60minOF+Sal.00.avi
   : crop: 9, 789, 3, 599
+  ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-08-19 Shank
+    WT KO pilot/2019-12 Shank DREADD Truscan Videos/D5_2019-12-13/group1/5111_60minOF+CNO1.00.avi
+  : crop: 0, 800, 0, 600
+  ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-08-19 Shank
+    WT KO pilot/2019-12 Shank DREADD Truscan Videos/D5_2019-12-13/group1/5461_60minOF+CNO1.00.avi
+  : crop: 1, 797, 1, 597
+  ? /Users/qsimeon/Dropbox (MIT)/SCSB Mouse 2018 SFARI/DeepLabCut/2019-08-19 Shank
+    WT KO pilot/2019-12 Shank DREADD Truscan Videos/D5_2019-12-13/group1/5468_60minOF+CNO1.00.avi
+  : crop: 0, 800, 0, 600
 bodyparts:
 - snout
 - tailbase
