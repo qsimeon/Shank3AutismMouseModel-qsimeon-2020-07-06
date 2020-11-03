@@ -1,5 +1,5 @@
-model_checkpoint_path: "/content/drive/My Drive/6-9 MEng Research/project-repo/dlc-models/iteration-1/Shank3AutismMouseModelJul6-trainset90shuffle1/train/snapshot-110000"
-all_model_checkpoint_paths: "/content/drive/My Drive/6-9 MEng Research/project-repo/dlc-models/iteration-1/Shank3AutismMouseModelJul6-trainset90shuffle1/train/snapshot-80000"
-all_model_checkpoint_paths: "/content/drive/My Drive/6-9 MEng Research/project-repo/dlc-models/iteration-1/Shank3AutismMouseModelJul6-trainset90shuffle1/train/snapshot-90000"
+model_checkpoint_path: "/content/drive/My Drive/6-9 MEng Research/project-repo/dlc-models/iteration-1/Shank3AutismMouseModelJul6-trainset90shuffle1/train/snapshot-130000"
 all_model_checkpoint_paths: "/content/drive/My Drive/6-9 MEng Research/project-repo/dlc-models/iteration-1/Shank3AutismMouseModelJul6-trainset90shuffle1/train/snapshot-100000"
 all_model_checkpoint_paths: "/content/drive/My Drive/6-9 MEng Research/project-repo/dlc-models/iteration-1/Shank3AutismMouseModelJul6-trainset90shuffle1/train/snapshot-110000"
+all_model_checkpoint_paths: "/content/drive/My Drive/6-9 MEng Research/project-repo/dlc-models/iteration-1/Shank3AutismMouseModelJul6-trainset90shuffle1/train/snapshot-120000"
+all_model_checkpoint_paths: "/content/drive/My Drive/6-9 MEng Research/project-repo/dlc-models/iteration-1/Shank3AutismMouseModelJul6-trainset90shuffle1/train/snapshot-130000"
