@@ -1,4 +1,4 @@
-2020-11-04 14:49:26 Config:
+2020-11-05 04:14:57 Config:
 {'Task': None,
  'TrainingFraction': None,
  'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9]],
@@ -31,7 +31,7 @@
  'fg_fraction': 0.25,
  'global_scale': 0.8,
  'init_weights': '/content/drive/My Drive/6-9 MEng '
-                 'Research/project-repo/dlc-models/iteration-1/Shank3AutismMouseModelJul6-trainset90shuffle1/train/snapshot-130000',
+                 'Research/project-repo/dlc-models/iteration-1/Shank3AutismMouseModelJul6-trainset90shuffle1/train/snapshot-310000',
  'intermediate_supervision': False,
  'intermediate_supervision_layer': 12,
  'iteration': None,
@@ -83,34 +83,35 @@
  'x2': None,
  'y1': None,
  'y2': None}
-2020-11-04 15:10:45 iteration: 10000 loss: 0.0011 lr: 0.002
-2020-11-04 15:23:04 iteration: 20000 loss: 0.0011 lr: 0.002
-2020-11-04 15:34:21 iteration: 30000 loss: 0.0011 lr: 0.002
-2020-11-04 15:44:50 iteration: 40000 loss: 0.0010 lr: 0.002
-2020-11-04 15:54:59 iteration: 50000 loss: 0.0011 lr: 0.002
-2020-11-04 16:05:00 iteration: 60000 loss: 0.0010 lr: 0.002
-2020-11-04 16:14:49 iteration: 70000 loss: 0.0011 lr: 0.002
-2020-11-04 16:24:40 iteration: 80000 loss: 0.0010 lr: 0.002
-2020-11-04 16:34:29 iteration: 90000 loss: 0.0010 lr: 0.002
-2020-11-04 16:44:14 iteration: 100000 loss: 0.0010 lr: 0.002
-2020-11-04 16:54:01 iteration: 110000 loss: 0.0010 lr: 0.002
-2020-11-04 17:03:38 iteration: 120000 loss: 0.0010 lr: 0.002
-2020-11-04 17:13:22 iteration: 130000 loss: 0.0010 lr: 0.002
-2020-11-04 17:22:59 iteration: 140000 loss: 0.0010 lr: 0.002
-2020-11-04 17:32:50 iteration: 150000 loss: 0.0010 lr: 0.002
-2020-11-04 17:42:27 iteration: 160000 loss: 0.0010 lr: 0.002
-2020-11-04 17:52:07 iteration: 170000 loss: 0.0010 lr: 0.002
-2020-11-04 18:01:51 iteration: 180000 loss: 0.0010 lr: 0.002
-2020-11-04 18:11:31 iteration: 190000 loss: 0.0010 lr: 0.002
-2020-11-04 18:21:14 iteration: 200000 loss: 0.0010 lr: 0.002
-2020-11-04 18:30:53 iteration: 210000 loss: 0.0010 lr: 0.002
-2020-11-04 18:40:29 iteration: 220000 loss: 0.0010 lr: 0.002
-2020-11-04 18:50:02 iteration: 230000 loss: 0.0010 lr: 0.002
-2020-11-04 18:59:45 iteration: 240000 loss: 0.0010 lr: 0.002
-2020-11-04 19:09:24 iteration: 250000 loss: 0.0010 lr: 0.002
-2020-11-04 19:19:03 iteration: 260000 loss: 0.0010 lr: 0.002
-2020-11-04 19:28:39 iteration: 270000 loss: 0.0010 lr: 0.002
-2020-11-04 19:38:19 iteration: 280000 loss: 0.0010 lr: 0.002
-2020-11-04 19:47:56 iteration: 290000 loss: 0.0010 lr: 0.002
-2020-11-04 19:57:42 iteration: 300000 loss: 0.0010 lr: 0.002
-2020-11-04 20:07:24 iteration: 310000 loss: 0.0010 lr: 0.002
+2020-11-05 04:36:15 iteration: 10000 loss: 0.0010 lr: 0.002
+2020-11-05 04:48:38 iteration: 20000 loss: 0.0010 lr: 0.002
+2020-11-05 04:59:34 iteration: 30000 loss: 0.0010 lr: 0.002
+2020-11-05 05:09:59 iteration: 40000 loss: 0.0010 lr: 0.002
+2020-11-05 05:20:09 iteration: 50000 loss: 0.0010 lr: 0.002
+2020-11-05 05:30:08 iteration: 60000 loss: 0.0010 lr: 0.002
+2020-11-05 05:40:02 iteration: 70000 loss: 0.0010 lr: 0.002
+2020-11-05 05:49:55 iteration: 80000 loss: 0.0010 lr: 0.002
+2020-11-05 05:59:45 iteration: 90000 loss: 0.0010 lr: 0.002
+2020-11-05 06:09:34 iteration: 100000 loss: 0.0010 lr: 0.002
+2020-11-05 06:19:22 iteration: 110000 loss: 0.0010 lr: 0.002
+2020-11-05 06:29:11 iteration: 120000 loss: 0.0010 lr: 0.002
+2020-11-05 06:39:00 iteration: 130000 loss: 0.0010 lr: 0.002
+2020-11-05 06:48:49 iteration: 140000 loss: 0.0010 lr: 0.002
+2020-11-05 06:58:37 iteration: 150000 loss: 0.0010 lr: 0.002
+2020-11-05 07:08:25 iteration: 160000 loss: 0.0010 lr: 0.002
+2020-11-05 07:18:09 iteration: 170000 loss: 0.0010 lr: 0.002
+2020-11-05 07:27:55 iteration: 180000 loss: 0.0010 lr: 0.002
+2020-11-05 07:37:37 iteration: 190000 loss: 0.0010 lr: 0.002
+2020-11-05 07:47:22 iteration: 200000 loss: 0.0010 lr: 0.002
+2020-11-05 07:57:01 iteration: 210000 loss: 0.0010 lr: 0.002
+2020-11-05 08:06:40 iteration: 220000 loss: 0.0010 lr: 0.002
+2020-11-05 08:16:27 iteration: 230000 loss: 0.0010 lr: 0.002
+2020-11-05 08:26:08 iteration: 240000 loss: 0.0010 lr: 0.002
+2020-11-05 08:35:56 iteration: 250000 loss: 0.0010 lr: 0.002
+2020-11-05 08:45:36 iteration: 260000 loss: 0.0010 lr: 0.002
+2020-11-05 08:55:22 iteration: 270000 loss: 0.0010 lr: 0.002
+2020-11-05 09:05:11 iteration: 280000 loss: 0.0010 lr: 0.002
+2020-11-05 09:14:57 iteration: 290000 loss: 0.0010 lr: 0.002
+2020-11-05 09:24:34 iteration: 300000 loss: 0.0010 lr: 0.002
+2020-11-05 09:34:16 iteration: 310000 loss: 0.0010 lr: 0.002
+2020-11-05 09:43:55 iteration: 320000 loss: 0.0010 lr: 0.002
