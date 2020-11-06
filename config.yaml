@@ -176,7 +176,7 @@ skeleton:
 - - leftear
   - leftflank
 skeleton_color: white
-pcutoff: 0.7
+pcutoff: 0.4
 dotsize: 13
 alphavalue: 0.7
 colormap: tab10
